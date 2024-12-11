@@ -1,6 +1,8 @@
 .profilerectangle {
-    position: absolute;
-    top: 58px;
+    position: fixed;
+    height: 4.21%;
+    top: 3.13%;
+    bottom: 92.66%;
     left: 14px;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
@@ -8,148 +10,90 @@
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 140px;
-    height: 39px;
 }
-.inshapepricerectangle {
-    position: absolute;
-    top: 217px;
-    left: 263px;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-    height: 34px;
-}
-.arrakispricerectangle {
-    position: absolute;
-    top: 381px;
-    left: 261px;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-    height: 34px;
-}
-.metacloudpricerectangle {
-    position: absolute;
-    top: 546px;
-    left: 261px;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-    height: 34px;
-}
-.inshapepricerectangle1 {
-    position: absolute;
-    top: 707px;
-    left: 261px;
-    background-color: #000;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 130px;
-    height: 34px;
-}
-.walletButton {
-    position: absolute; /* Ensures it floats over other elements */
-    top: 58px;
-    Right: 14px;
-  }
-  
-  .walletButton button {
-    background-color: #20232a; /* Matches dark UI */
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-  }
 .walletrectangle {
-    position: absolute;
-    top: 57px;
-    left: 245px;
+    position: fixed;
+    height: 4.31%;
+    top: 3.13%;
+    right: 11px;
+    bottom: 92.55%;
     box-shadow: 0px 4px 4px 0.25px rgba(255, 235, 235, 0.25);
     border-radius: 10px;
     background-color: #434242;
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 172px;
-    height: 40px;
 }
 .userlogoIcon {
-    position: absolute;
-    height: 4.63%;
-    width: 10.49%;
-    top: 6.06%;
-    right: 86.44%;
-    bottom: 89.31%;
-    left: 3.07%;
-    max-width: 100%;
-    overflow: hidden;
+    position: fixed;
+    height: 4.2%;
+    top: 3.25%;
+    bottom: 92.55%;
+    left: 18.15px;
     max-height: 100%;
+    width: 42.5px;
 }
 .wxyz {
-    position: absolute;
-    top: 68px;
+    position: fixed;
+    height: 2.38%;
+    top: 4.32%;
     left: 76px;
     font-size: 14px;
     display: inline-block;
     width: 51px;
-    height: 22px;
 }
 .connectWallet {
-    position: absolute;
-    top: 69px;
-    left: 254px;
+    position: fixed;
+    height: 2.38%;
+    top: 4.32%;
+    right: 39px;
     font-size: 14px;
     display: inline-block;
     width: 135px;
-    height: 22px;
 }
 .useropenicon {
-    position: absolute;
+    position: fixed;
     height: 0.97%;
-    width: 1.59%;
-    top: 7.83%;
-    right: 68.18%;
-    bottom: 91.2%;
-    left: 30.23%;
-    max-width: 100%;
-    overflow: hidden;
+    top: 4.81%;
+    bottom: 94.23%;
+    left: 129.38px;
     max-height: 100%;
+    width: 6.8px;
     object-fit: contain;
 }
 .walleticon {
-    position: absolute;
+    position: fixed;
     height: 2.06%;
-    width: 4.91%;
-    top: 7.37%;
-    right: 5.72%;
-    bottom: 90.57%;
-    left: 89.37%;
-    max-width: 100%;
-    overflow: hidden;
+    top: 4.23%;
+    right: 24.5px;
+    bottom: 93.7%;
     max-height: 100%;
+    width: 21px;
 }
 .auerectangle {
-    position: absolute;
-    top: 126px;
+    position: fixed;
+    height: 9.05%;
+    width: 100%;
+    top: 10.12%;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+   
+   
 }
 .endedrectangle {
-    position: absolute;
-    top: 138px;
-    left: 291px;
+    position: fixed;
+    height: 3.68%;
+    top: 12.31%;
+    right: 3px;
+    bottom: 84.01%;
     border-radius: 20px;
     background-color: #000;
-    width: 134px;
-    height: 34px;
+    width: 123px;
 }
 .active {
-    position: absolute;
-    top: 145px;
-    left: 16px;
+    position: fixed;
+    height: 1.51%;
+    top: 13.5%;
+    left: 6px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -159,13 +103,13 @@
     align-items: center;
     justify-content: center;
     width: 96px;
-    height: 19px;
     cursor: pointer;
 }
 .upcoming {
-    position: absolute;
-    top: 146px;
-    left: 152px;
+    position: fixed;
+    height: 2.05%;
+    top: 13.17%;
+    right: 136px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -174,14 +118,14 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 131px;
-    height: 19px;
+    width: 110px;
     cursor: pointer;
 }
 .ended {
-    position: absolute;
-    top: 145px;
-    left: 282px;
+    position: fixed;
+    height: 2.05%;
+    top: 13.17%;
+    right: 15px;
     font-size: 20px;
     letter-spacing: -0.01em;
     line-height: 130.08%;
@@ -190,429 +134,309 @@
     align-items: center;
     justify-content: center;
     width: 131px;
-    height: 19px;
 }
 .endedicon {
-    position: absolute;
+    position: fixed;
     height: 2.04%;
     width: 4.21%;
-    top: 15.66%;
+    top: 13.07%;
     right: 3.97%;
-    bottom: 82.3%;
+    bottom: 84.89%;
     left: 91.82%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
 .auerectangleborder {
-    position: absolute;
-    top: 187px;
+    position: fixed;
+    height: 0.54%;
+    width: 100%;
+    top: 17%;
+    right: 0px;
+    bottom: 81.75%;
     left: 0px;
     background-color: rgba(223, 220, 220, 0.71);
-    width: 428px;
-    height: 5px;
 }
 .auerectanglestatus {
-    position: absolute;
-    top: 187px;
-    left: 282px;
+    position: fixed;
+    height: 0.54%;
+    top: 17%;
+    right: -8px;
+    bottom: 81.75%;
     background-color: #0048ff;
     width: 154px;
-    height: 5px;
+}
+.inshapepricerectangle {
+    position: fixed;
+    height: 3.68%;
+    top: 23.43%;
+    right: 23px;
+    bottom: 72.89%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.arrakispricerectangle {
+    position: fixed;
+    height: 3.68%;
+    top: 41.14%;
+    right: 25px;
+    bottom: 55.18%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.metacloudpricerectangle {
+    position: fixed;
+    height: 3.68%;
+    top: 58.96%;
+    right: 25px;
+    bottom: 37.36%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
+}
+.inshapepricerectangle1 {
+    position: fixed;
+    height: 3.68%;
+    top: 76.35%;
+    right: 25px;
+    bottom: 19.97%;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 130px;
 }
 .usdt {
-    position: absolute;
-    top: 223px;
-    left: 272px;
+    position: fixed;
+    height: 2.26%;
+    top: 24.08%;
+    right: 25px;
     font-size: 18px;
     font-family: 'Merriweather Sans';
     display: inline-block;
     width: 113px;
-    height: 21px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .usdt1 {
-    position: absolute;
-    top: 387px;
-    left: 270px;
+    position: fixed;
+    height: 1.73%;
+    top: 41.79%;
+    right: 17px;
     font-size: 18px;
     font-family: 'Merriweather Sans';
     display: inline-block;
     width: 122px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .usdt2 {
-    position: absolute;
-    top: 552px;
-    left: 274px;
+    position: fixed;
+    height: 1.73%;
+    top: 59.61%;
+    right: 17px;
     font-size: 18px;
     font-family: 'Merriweather Sans';
     display: inline-block;
-    width: 122px;
-    height: 16px;
+    width: 110px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .usdt3 {
-    position: absolute;
-    top: 713px;
-    left: 274px;
+    position: fixed;
+    height: 1.73%;
+    top: 77%;
+    right: 16px;
     font-size: 18px;
     font-family: 'Merriweather Sans';
     display: inline-block;
-    width: 122px;
-    height: 16px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.inshape {
-    position: absolute;
-    top: 212px;
-    left: 108px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.arrakis {
-    position: absolute;
-    top: 376px;
-    left: 106px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.metacloud {
-    position: absolute;
-    top: 541px;
-    left: 106px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.inshape1 {
-    position: absolute;
-    top: 702px;
-    left: 106px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-    width: 112px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.blockchainService {
-    position: absolute;
-    top: 239px;
-    left: 109px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.protocol {
-    position: absolute;
-    top: 403px;
-    left: 107px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.vr {
-    position: absolute;
-    top: 568px;
-    left: 107px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.blockchainService1 {
-    position: absolute;
-    top: 729px;
-    left: 107px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt4 {
-    position: absolute;
-    top: 290px;
-    left: 41px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt5 {
-    position: absolute;
-    top: 454px;
-    left: 39px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt6 {
-    position: absolute;
-    top: 619px;
-    left: 39px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    height: 25px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.usdt7 {
-    position: absolute;
-    top: 780px;
-    left: 39px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    width: 160px;
-    height: 25px;
+    width: 110px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress {
-    position: absolute;
-    top: 330px;
-    left: 300px;
+    position: fixed;
+    height: 1.73%;
+    top: 35.64%;
+    right: 22px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress1 {
-    position: absolute;
-    top: 494px;
-    left: 298px;
+    position: fixed;
+    height: 1.73%;
+    top: 53.35%;
+    right: 24px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress2 {
-    position: absolute;
-    top: 659px;
-    left: 298px;
+    position: fixed;
+    height: 1.73%;
+    top: 71.17%;
+    right: 24px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .progress3 {
-    position: absolute;
-    top: 820px;
-    left: 298px;
+    position: fixed;
+    height: 1.73%;
+    top: 88.55%;
+    right: 20px;
     font-weight: 500;
     display: inline-block;
     width: 94px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated {
-    position: absolute;
-    top: 258px;
-    left: 337px;
+    position: fixed;
+    height: 1.73%;
+    top: 27.86%;
+    right: 11px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated1 {
-    position: absolute;
-    top: 422px;
-    left: 335px;
+    position: fixed;
+    height: 1.73%;
+    top: 45.57%;
+    right: 13px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated2 {
-    position: absolute;
-    top: 587px;
-    left: 335px;
+    position: fixed;
+    height: 1.73%;
+    top: 63.39%;
+    right: 13px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .notRated3 {
-    position: absolute;
-    top: 748px;
-    left: 335px;
+    position: fixed;
+    height: 1.73%;
+    top: 80.78%;
+    right: 13px;
     font-weight: 500;
     display: inline-block;
     width: 68px;
-    height: 16px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .ended15Dec {
-    position: absolute;
-    top: 278px;
-    left: 315px;
+    position: fixed;
+    height: 2.59%;
+    top: 30.02%;
+    right: -9px;
     font-weight: 500;
     display: inline-block;
     width: 110px;
-    height: 24px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .ended19Dec {
-    position: absolute;
-    top: 441px;
-    left: 311px;
+    position: fixed;
+    height: 2.59%;
+    top: 47.62%;
+    right: -5px;
     font-weight: 500;
     display: inline-block;
     width: 110px;
-    height: 24px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .ended25Dec {
-    position: absolute;
-    top: 606px;
-    left: 312px;
+    position: fixed;
+    height: 2.59%;
+    top: 65.44%;
+    right: -6px;
     font-weight: 500;
     display: inline-block;
     width: 110px;
-    height: 24px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .ended30Dec {
-    position: absolute;
-    top: 767px;
-    left: 311px;
+    position: fixed;
+    height: 2.59%;
+    top: 82.83%;
+    right: -5px;
     font-weight: 500;
     display: inline-block;
     width: 110px;
-    height: 24px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.inshapeimageborder {
-    position: absolute;
-    top: 210px;
-    left: 35px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
-    height: 56px;
-}
-.arrakisimageborder {
-    position: absolute;
-    top: 374px;
-    left: 33px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
-    height: 56px;
-}
-.metacloudimageborder {
-    position: absolute;
-    top: 539px;
-    left: 33px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
-    height: 56px;
-}
-.inshapeimageborder1 {
-    position: absolute;
-    top: 700px;
-    left: 33px;
-    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
-    border-radius: 50%;
-    background-color: #fff;
-    width: 56px;
-    height: 56px;
-}
 .b {
-    position: absolute;
-    top: 352px;
-    left: 35px;
+    position: fixed;
+    height: 1.19%;
+    width: calc(100% - 67px);
+    top: 38.12%;
+    left: 42px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
-    width: 361px;
-    height: 11px;
 }
 .b1 {
-    position: absolute;
-    top: 517px;
-    left: 35px;
+    position: fixed;
+    height: 1.51%;
+    width: calc(100% - 67px);
+    top: 55.83%;
+    left: 45px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
-    width: 361px;
-    height: 14px;
 }
 .b2 {
-    position: absolute;
-    top: 681px;
+    position: fixed;
+    height: 1.19%;
+    width: calc(100% - 52px);
+    top: 73.54%;
     left: 35px;
     font-size: 9px;
     letter-spacing: 0.29em;
     display: inline-block;
     font-family: 'Times New Roman';
     color: rgba(255, 255, 255, 0.53);
-    width: 361px;
-    height: 11px;
 }
-.inshapeimageIcon {
-    position: absolute;
-    top: 221px;
-    left: 46px;
-    width: 32px;
-    height: 35px;
-    object-fit: cover;
-}
+
 .buttonsBackground {
-    position: absolute;
-    top: 855px;
-  
-  
+    position: fixed;
+    height: 8.18%;
+    width: 100%;
+    bottom: 0%;
+
    
+}
+
+.cursorbuttonsIcon {
+    position: fixed;
+    height: 1.63%;
+    width: 5.16%;
     
-  }
+    right: 66.81%;
+    bottom: 6.3%;
+    left: 28.02%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
 .homeButtonIcon {
-    position: absolute;
+    position: fixed;
     height: 3.89%;
     width: 8.64%;
-    top: 94.18%;
+   
     right: 84.81%;
     bottom: 1.94%;
     left: 6.54%;
@@ -622,10 +446,10 @@
     cursor: pointer;
 }
 .notificationButtonIcon {
-    position: absolute;
+    position: fixed;
     height: 4.05%;
     width: 7.45%;
-    top: 93.93%;
+   
     right: 7.85%;
     bottom: 2.02%;
     left: 84.7%;
@@ -634,149 +458,363 @@
     max-height: 100%;
 }
 .stackButtonIcon {
-    position: absolute;
+    position: fixed;
     height: 4.52%;
     width: 9.11%;
-    top: 93.64%;
+    
     right: 23.6%;
-    bottom: 1.84%;
+    bottom: 1.50%;
     left: 67.29%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
-.cursorbuttonsIcon {
-    position: absolute;
-    height: 1.63%;
-    width: 5.16%;
-    top: 91.58%;
-    right: 66.81%;
-    bottom: 6.79%;
-    left: 28.02%;
+
+.icoButtonIcon {
+    position: fixed;
+    height: 7.34%;
+    width: 27.8%;
+    
+    right: 53.97%;
+    bottom: 0.44%;
+    left: 18.22%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-}
-.icoButtonIcon {
-    position: absolute;
-    top: 844.07px;
-    left: 78px;
-    width: 119px;
-    height: 77px;
     object-fit: cover;
 }
 .nftButtonIcon {
-    position: absolute;
-    top: 845.07px;
-    left: 161px;
-    width: 114px;
-    height: 87px;
+    position: fixed;
+    height: 6.7%;
+    width: 26.64%;
+   
+    right: 35.75%;
+    bottom: 0.4%;
+    left: 37.62%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
     cursor: pointer;
 }
+.walletButton {
+
+    position: fixed;
+    height: 4.22%;
+    top: 2.92%;
+    bottom: 92.87%;
+   
+    width: 140px;
+    right: 2%;
+ 
+  }
 .inshapedark {
-    position: absolute;
-    top: 315px;
+    position: fixed;
+    height: 0.86%;
+    width: calc(100% - 66px);
+    top: 34.02%;
+    right: 25px;
+    bottom: 65.12%;
     left: 41px;
     border-radius: 10px;
     background-color: #434242;
-    width: 348px;
-    height: 8px;
 }
 .arrakisdark {
-    position: absolute;
-    top: 479px;
+    position: fixed;
+    height: 0.86%;
+    width: calc(100% - 64px);
+    top: 51.73%;
+    right: 25px;
+    bottom: 47.41%;
     left: 39px;
     border-radius: 10px;
     background-color: #434242;
-    width: 348px;
-    height: 8px;
 }
 .metaclouddark {
-    position: absolute;
-    top: 644px;
+    position: fixed;
+    height: 0.86%;
+    width: calc(100% - 64px);
+    top: 69.55%;
+    right: 25px;
+    bottom: 29.59%;
     left: 39px;
     border-radius: 10px;
     background-color: #434242;
-    width: 348px;
-    height: 8px;
 }
 .inshapedark1 {
-    position: absolute;
-    top: 805px;
+    position: fixed;
+    height: 0.86%;
+    width: calc(100% - 64px);
+    top: 86.93%;
+    right: 25px;
+    bottom: 12.21%;
     left: 39px;
     border-radius: 10px;
     background-color: #434242;
-    width: 348px;
-    height: 8px;
+}
+.inshape {
+    position: fixed;
+    height: 2.7%;
+    top: 22.89%;
+    left: 95px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.arrakis {
+    position: fixed;
+    height: 2.7%;
+    top: 40.6%;
+    left: 93px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.metacloud {
+    position: fixed;
+    height: 2.7%;
+    top: 58.42%;
+    left: 93px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inshape1 {
+    position: fixed;
+    height: 2.7%;
+    top: 75.81%;
+    left: 93px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 112px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blockchainService {
+    position: fixed;
+    height: 2.7%;
+    width: calc(100% - 268px);
+    top: 25.81%;
+    left: 96px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.protocol {
+    position: fixed;
+    height: 2.7%;
+    width: calc(100% - 268px);
+    top: 43.52%;
+    left: 94px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vr {
+    position: fixed;
+    height: 2.7%;
+    width: calc(100% - 268px);
+    top: 61.34%;
+    left: 94px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blockchainService1 {
+    position: fixed;
+    height: 2.7%;
+    width: calc(100% - 268px);
+    top: 78.73%;
+    left: 94px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt4 {
+    position: fixed;
+    height: 2.7%;
+    top: 31.32%;
+    left: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt5 {
+    position: fixed;
+    height: 2.7%;
+    top: 49.03%;
+    left: 26px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt6 {
+    position: fixed;
+    height: 2.7%;
+    top: 66.85%;
+    left: 26px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.usdt7 {
+    position: fixed;
+    height: 2.7%;
+    top: 84.23%;
+    left: 26px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    width: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inshapeimageborder {
+    position: fixed;
+    height: 6.05%;
+    top: 22.68%;
+    bottom: 71.28%;
+    left: 22px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+}
+.arrakisimageborder {
+    position: fixed;
+    height: 6.05%;
+    top: 40.39%;
+    bottom: 53.56%;
+    left: 20px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+}
+.metacloudimageborder {
+    position: fixed;
+    height: 6.05%;
+    top: 58.21%;
+    bottom: 35.75%;
+    left: 20px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+}
+.inshapeimageborder1 {
+    position: fixed;
+    height: 6.05%;
+    top: 75.59%;
+    bottom: 18.36%;
+    left: 20px;
+    box-shadow: 0px 4px 9px rgba(255, 228, 228, 0.25);
+    border-radius: 50%;
+    background-color: #fff;
+    width: 56px;
+}
+.inshapeimageIcon {
+    position: fixed;
+    height: 3.78%;
+    top: 23.87%;
+    bottom: 72.35%;
+    left: 33px;
+    max-height: 100%;
+    width: 32px;
+    object-fit: cover;
 }
 .inshape2 {
-    position: absolute;
-    top: 315px;
-    left: 41px;
+    position: fixed;
+    height: 0.86%;
+    top: 34.02%;
+    bottom: 65.12%;
+    left: 28px;
     border-radius: 10px;
     background-color: #fff;
     width: 130px;
-    height: 8px;
 }
 .arrakis1 {
-    position: absolute;
-    top: 479px;
-    left: 39px;
+    position: fixed;
+    height: 0.86%;
+    top: 51.73%;
+    bottom: 47.41%;
+    left: 26px;
     border-radius: 10px;
     background-color: #fff;
     width: 76px;
-    height: 8px;
 }
 .metacloud1 {
-    position: absolute;
-    top: 644px;
-    left: 39px;
+    position: fixed;
+    height: 0.86%;
+    top: 69.55%;
+    bottom: 29.59%;
+    left: 26px;
     border-radius: 10px;
     background-color: #fff;
     width: 155px;
-    height: 8px;
 }
 .inshape3 {
-    position: absolute;
-    top: 805px;
-    left: 39px;
+    position: fixed;
+    height: 0.86%;
+    top: 86.93%;
+    bottom: 12.21%;
+    left: 26px;
     border-radius: 10px;
     background-color: #fff;
     width: 155px;
-    height: 8px;
 }
 .arrakisimageIcon {
-    position: absolute;
-    top: 387px;
-    left: 43px;
+    position: fixed;
+    height: 4%;
+    top: 41.79%;
+    bottom: 54.21%;
+    left: 30px;
+    max-height: 100%;
     width: 38px;
-    height: 37px;
     object-fit: cover;
 }
 .metacloudimageIcon {
-    position: absolute;
-    top: 545px;
-    left: 39px;
+    position: fixed;
+    height: 4.75%;
+    top: 58.86%;
+    bottom: 36.39%;
+    left: 26px;
+    max-height: 100%;
     width: 45px;
-    height: 44px;
     object-fit: cover;
 }
 .inshapeimageIcon1 {
-    position: absolute;
-    top: 712px;
-    left: 44px;
+    position: fixed;
+    height: 3.78%;
+    top: 76.89%;
+    bottom: 19.33%;
+    left: 31px;
+    max-height: 100%;
     width: 32px;
-    height: 35px;
     object-fit: cover;
 }
 .dropdownico5Icon {
-    position: absolute;
-    height: 0.81%;
+    position: fixed;
+    height: 0.82%;
     width: 2.99%;
     top: 90.19%;
     right: 49.42%;
-    bottom: 9%;
+    bottom: 8.99%;
     left: 47.59%;
     max-width: 100%;
     overflow: hidden;
